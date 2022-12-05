@@ -1,0 +1,51 @@
+@import "null.css";
+/* ============================================================================================================================= */
+/*====== Подключаемые Шрифты======= */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+/*====================================== */
+
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	font-family: Lato;
+	/* background: linear-gradient(55.95deg, #FF3F3A33 0%, #F75E0533 100%); */
+}
+[class*="__container"]{
+	max-width: 1260px;
+	margin: 0px auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.main {
+
+}
+.main__container{
+
+}
+.main__item{
+	display: flex;
+	align-items: center;
+	gap: 1.5rem;
+	font-size: 1.3rem;
+	margin-bottom: 1.2rem;
+}
+.main__image {
+	flex: 0 1 50%;
+
+}
+.main__image img{
+	width: 100%;
+}
+.main__answers {
+	flex: 0 1 50%;
+}
+.main__list  li{
+	padding-bottom: 0.5rem;
+
+}
+
